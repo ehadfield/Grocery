@@ -46,7 +46,7 @@ $("#userInput").submit(function(event) {
     var cloneitems = items.slice()
     console.log(items);
     console.log(cloneitems);
-    var alphaitems = cloneitems.sort().toUpperCase();
+    var alphaitems = cloneitems.sort();
     console.log(alphaitems);
     var upperalphaitems = alphaitems.toUpperCase();
     console.log(upperalphaitems);
